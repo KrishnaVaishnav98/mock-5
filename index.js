@@ -23,6 +23,6 @@ app.listen(8080, async (req, res) => {
         await connection
         console.log("connected to server on port 8080")
     } catch (err) {
-        consolelog(err)
+        console.log(err)
     }
 })
