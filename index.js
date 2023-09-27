@@ -14,7 +14,7 @@ app.use("/user", userRouter)
 app.use("/employee", empRouter)
 
 app.get("/", (req, res) => {
-    res.send("|| Welcome to Employees Management App ||")
+    res.send(" || Welcome to Employees Management App || ")
 })
 
 
